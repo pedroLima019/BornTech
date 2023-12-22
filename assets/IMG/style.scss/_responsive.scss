@@ -1,0 +1,104 @@
+
+@media(max-width:768px){
+   
+  .logo { 
+      h1 {
+      font-size: 20px;
+      }
+  }
+   .menu-nav{
+     .material-symbols-outlined{
+       display: block;
+       color: white;
+       font-size: 30px;
+       padding: 5px;
+       border-radius: 20px;
+     }
+
+       .links-list{
+         display: none;
+       }
+
+    }
+}
+
+@media(max-width:425px){
+
+  .logo h1{
+    font-size: 15px;
+    background-color: red($color: #000000);
+    
+  }
+
+   .main-container{
+         .container{
+                .main-content{
+                        h2{
+                          font-size: 32px;
+                        }
+
+                        p{
+                          font-size: 13px;
+                        }
+                    .btn-cadastrar{
+                        button{
+                          width: 150px;
+                          font-size: 12px ;
+                        }
+                      }
+                }
+            }
+        }
+
+}
+
+@media(max-width:320px){
+  .main-container{
+    .container{
+           .main-content{
+                   h2{
+                     font-size: 30px;
+                     text-align: center;
+                   }
+
+                   p{
+                     font-size: 13px;
+                     text-align: center;
+                   }
+               .btn-cadastrar{
+                   button{
+                     width: 150px;
+                     font-size: 12px ;
+                   }
+                 }
+           }
+       }
+   }
+
+   .section-container{
+    padding: 0px;
+
+    h1{
+      font-size: 35px;
+    }
+    .section-cards{
+         
+         .card{
+           width: 100%;
+
+           h3{
+            font-size: 17px;
+           }
+
+           p{
+            font-size: 10px;
+           }
+
+           button{
+            font-size: 10px;
+
+           }
+         }
+    }
+   }
+}
