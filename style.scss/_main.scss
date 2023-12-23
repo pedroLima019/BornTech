@@ -60,6 +60,7 @@
     align-items: center;
     flex-wrap: wrap;
     
+    
      h1{
       text-align: center;
       font-size: 50px;
@@ -114,3 +115,47 @@
       }
 }
 
+.about-section{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   padding: 50px;
+   border-top: 1px solid rgb(0, 0, 0);
+     
+        .about-text{
+           padding: 40px;
+           width: 50%;
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+           flex-direction: column;
+
+            h1{
+              font-size: 50px;
+              padding: 20px;
+              text-align: left;
+            }
+
+            p{
+              padding: 20px;
+              line-height: 30px;
+            }
+           
+        }
+
+        .img-container{
+          padding: 40px;
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+            
+            img{
+              width: 600px;
+              border-radius: 10px;
+            }
+        }
+}
