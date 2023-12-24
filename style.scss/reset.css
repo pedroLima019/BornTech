@@ -15,6 +15,11 @@
   font-size: 25px;
   font-weight: 800;
   padding: 8px;
+  transition: 0.5s ease-in-out;
+}
+
+.logo h1:hover {
+  color: blue;
 }
 
 .menu-nav .material-symbols-outlined {
@@ -29,6 +34,10 @@
   margin: 10px;
   color: white;
   font-weight: 300;
+  transition: 0.3s ease-in-out;
+}
+.menu-nav .links-list li a:hover {
+  color: blue;
 }
 .menu-nav .links-list .login {
   cursor: pointer;
@@ -45,6 +54,10 @@
   border-radius: 10px;
   font-weight: 400;
   font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+.menu-nav .links-list .login:hover {
+  background-color: blue;
 }
 
 .main-container {
@@ -90,6 +103,11 @@
   color: white;
   font-weight: 600;
   font-size: 16px;
+  transition: 0.5s ease-in-out;
+}
+.main-container .container .main-content .btn-cadastrar button:hover {
+  background-color: blue;
+  color: white;
 }
 
 .section-container {
@@ -198,6 +216,16 @@
   .menu-nav .links-list {
     display: none;
   }
+  .about-section .about-text {
+    text-align: center;
+    width: 100%;
+  }
+  .about-section .about-text h1 {
+    text-align: center;
+  }
+  .about-section .img-container {
+    width: 100%;
+  }
 }
 @media (max-width: 425px) {
   .logo h1 {
@@ -213,6 +241,18 @@
   .main-container .container .main-content .btn-cadastrar button {
     width: 150px;
     font-size: 12px;
+  }
+  .about-section .about-text {
+    padding: 5px;
+  }
+  .about-section .about-text h1 {
+    font-size: 37px;
+  }
+  .about-section .about-text p {
+    font-size: 13px;
+  }
+  .about-section .img-container img {
+    width: 350px;
   }
 }
 @media (max-width: 320px) {

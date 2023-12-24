@@ -16,6 +16,11 @@
    font-size: 25px;
    font-weight: 800;
    padding: 8px;
+   transition: 0.5s ease-in-out;
+}
+
+.logo h1:hover{
+   color: blue;
 }
 
 .menu-nav{
@@ -33,7 +38,11 @@
           margin: 10px;
           color: white;
           font-weight: 300;
-          
+          transition: 0.3s ease-in-out;
+       }
+
+       li a:hover{
+            color: blue;
        }
 
        .login{
@@ -51,6 +60,12 @@
         border-radius: 10px;
         font-weight: 400;
         font-size: 15px;
+        transition: 0.3s ease-in-out;
+       }
+
+       .login:hover{
+           background-color:blue;
+           
        }
     }  
 

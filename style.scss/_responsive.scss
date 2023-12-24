@@ -20,6 +20,20 @@
        }
 
     }
+    .about-section{
+     .about-text{
+         text-align: center;
+         width: 100%;
+
+         h1{
+           text-align: center;
+         }
+     }
+
+     .img-container{
+       width: 100%;
+     }
+}
 }
 
 
@@ -51,7 +65,25 @@
                 }
             }
         }
+    
+        .about-section{
+          .about-text{
+             padding: 5px;
+            h1{
+               font-size: 37px;
+            }
 
+            p{
+              font-size: 13px;
+            }
+          }
+
+          .img-container{
+             img{
+              width: 350px;
+             }
+          }
+     }
 }
 
 
