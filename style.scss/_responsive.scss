@@ -22,7 +22,7 @@
     }
     .about-section{
      .about-text{
-         text-align: center;
+         text-align: justify;
          width: 100%;
 
          h1{
@@ -74,7 +74,7 @@
             }
 
             p{
-              font-size: 13px;
+              font-size: 15px;
             }
           }
 
@@ -118,6 +118,7 @@
     h1{
       font-size: 35px;
     }
+
     .section-cards{
          
          .card{
@@ -138,6 +139,27 @@
          }
     }
    }
+
+   .about-section{
+      .about-text{
+         h1{
+           font-size: 30px;
+         }
+
+         p{
+          font-size: 12px;
+          line-height: 20px;
+         }
+      }
+
+    .img-container{
+
+      img{
+        width: 250px;
+      }
+      
+    }
+}
 
  
 }

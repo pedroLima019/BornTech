@@ -6,9 +6,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-
+  border-bottom: 1px solid black;
+  position: fixed;
 }
+
+
 
 .logo h1{
   cursor: pointer;
@@ -22,6 +24,7 @@
 .logo h1:hover{
    color: blue;
 }
+
 
 .menu-nav{
     .material-symbols-outlined{
@@ -38,11 +41,12 @@
           margin: 10px;
           color: white;
           font-weight: 300;
-          transition: 0.3s ease-in-out;
+          transition: all 0.5s ease-in-out;
        }
 
        li a:hover{
             color: blue;
+            border-bottom: 1px solid blue;
        }
 
        .login{
@@ -60,7 +64,7 @@
         border-radius: 10px;
         font-weight: 400;
         font-size: 15px;
-        transition: 0.3s ease-in-out;
+        transition: all 0.5s ease-in-out;
        }
 
        .login:hover{
@@ -68,7 +72,6 @@
            
        }
     }  
-
 }
 
 
