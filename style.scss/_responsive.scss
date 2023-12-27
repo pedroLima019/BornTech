@@ -34,6 +34,31 @@
        width: 100%;
      }
 }
+ 
+footer{
+   padding: 30px;
+       .info-contatos{
+              .contatos{
+                  h3{
+                    font-size: 15px;
+                  }
+              }
+              
+              .rd-social{
+                h3{
+                  font-size: 15px;
+                }
+              }
+
+              .endereco{
+                h3{
+                  font-size: 15px;
+                }
+            }
+       }
+}
+
+
 }
 
 
@@ -84,6 +109,15 @@
              }
           }
      }
+     footer{
+      .info-contatos{
+         flex-direction: column;
+         text-align: center;
+           .rd-social{
+             margin: 20px 0;
+           }
+      }
+    }
 }
 
 
@@ -160,6 +194,15 @@
       
     }
 }
-
+  
+footer{
+   .info-contatos{
+      flex-direction: column;
+      text-align: center;
+        .rd-social{
+          margin: 20px 0;
+        }
+   }
+ }
  
 }

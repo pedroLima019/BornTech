@@ -228,7 +228,7 @@
   justify-content: center;
   width: 500px;
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .form .form-content h1 {
   text-align: center;
@@ -263,7 +263,66 @@
 }
 .form .form-content button:hover {
   transition: all 0.2s ease-in-out;
-  background-color: blue;
+  background-color: white;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .info-contatos {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+footer .info-contatos .contatos {
+  margin-right: 20px;
+}
+footer .info-contatos .contatos h3 {
+  font-size: 20px;
+}
+footer .info-contatos .contatos .cel {
+  font-weight: 300;
+  font-size: 12px;
+}
+footer .info-contatos .contatos .email {
+  font-size: 12px;
+  font-weight: 300;
+}
+footer .info-contatos .rd-social {
+  margin: 0 20px;
+}
+footer .info-contatos .rd-social .logos-rd-social {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+footer .info-contatos .rd-social h3 {
+  font-size: 20px;
+  margin-right: 5px;
+}
+footer .info-contatos .rd-social .instagram {
+  margin: 0 10px;
+}
+footer .info-contatos .endereco h3 {
+  font-size: 20px;
+}
+footer .info-contatos .endereco .end {
+  font-size: 12px;
+  font-weight: 300;
+}
+footer img {
+  width: 20px;
+  height: 20px;
+}
+footer h3 {
+  font-size: 15px;
 }
 
 @media (max-width: 768px) {
@@ -289,6 +348,18 @@
   }
   .about-section .img-container {
     width: 100%;
+  }
+  footer {
+    padding: 30px;
+  }
+  footer .info-contatos .contatos h3 {
+    font-size: 15px;
+  }
+  footer .info-contatos .rd-social h3 {
+    font-size: 15px;
+  }
+  footer .info-contatos .endereco h3 {
+    font-size: 15px;
   }
 }
 @media (max-width: 425px) {
@@ -317,6 +388,13 @@
   }
   .about-section .img-container img {
     width: 350px;
+  }
+  footer .info-contatos {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .info-contatos .rd-social {
+    margin: 20px 0;
   }
 }
 @media (max-width: 320px) {
@@ -359,6 +437,13 @@
   }
   .about-section .img-container img {
     width: 250px;
+  }
+  footer .info-contatos {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .info-contatos .rd-social {
+    margin: 20px 0;
   }
 }
 * {

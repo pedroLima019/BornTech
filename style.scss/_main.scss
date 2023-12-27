@@ -192,7 +192,7 @@
        justify-content: center;
        width: 500px;
        padding: 20px;
-       margin-top: 50px;
+       margin-top: 80px;
 
         h1{
          text-align: center;
@@ -232,7 +232,87 @@
 
        button:hover{
          transition: all 0.2s ease-in-out;
-         background-color: blue;
+         background-color:white;
+         color: black;
        }
     }
+}
+
+footer{
+   background-color: black;
+   width: 100%;
+   color: white;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+
+
+   .info-contatos{
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      
+      .contatos{
+          margin-right: 20px;
+
+           h3{
+             font-size: 20px;
+           }
+
+          .cel{
+            font-weight: 300;
+            font-size: 12px;
+          }
+
+          .email{
+            font-size: 12px;
+            font-weight: 300;
+          }
+         
+      }
+
+      .rd-social{
+         margin: 0 20px;
+
+         .logos-rd-social{
+             display: flex;
+             justify-content: center;
+             margin: 5px 0;
+         }
+         
+         h3{
+            font-size: 20px;
+            margin-right: 5px;
+         }  
+
+         .instagram{
+           margin: 0 10px;
+         }
+      }
+
+      .endereco{
+          h3{
+            font-size: 20px;
+          }
+
+          .end{
+            font-size: 12px;
+            font-weight: 300;
+          }
+      }
+   }
+
+
+
+      img{
+        width: 20px;
+        height: 20px;
+      }
+
+      h3{
+        font-size: 15px;
+      }
+
+  
 }
