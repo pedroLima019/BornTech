@@ -14,6 +14,10 @@
   list-style: none;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   max-width: 2560px;
   
@@ -23,3 +27,15 @@ body{
 img{
   width: 100%;
 }
+
+body::-webkit-scrollbar{
+  width: 12px;
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(165, 165, 165);
+  border: 3px solid black;
+}
+
+

@@ -97,7 +97,7 @@
   display: flex;
   justify-content: center;
 }
-.main-container .container .main-content .btn-cadastrar button {
+.main-container .container .main-content .btn-cadastrar a {
   cursor: pointer;
   padding: 10px;
   width: 200px;
@@ -109,7 +109,7 @@
   font-size: 16px;
   transition: 0.3s ease-in-out;
 }
-.main-container .container .main-content .btn-cadastrar button:hover {
+.main-container .container .main-content .btn-cadastrar a:hover {
   background-color: blue;
   color: white;
 }
@@ -195,11 +195,12 @@
 .about-section .about-text h1 {
   font-size: 50px;
   padding: 20px;
-  text-align: left;
+  text-align: center;
 }
 .about-section .about-text p {
   padding: 20px;
   line-height: 30px;
+  text-align: justify;
 }
 .about-section .img-container {
   padding: 40px;
@@ -238,13 +239,17 @@
 }
 .form .form-content label {
   color: white;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .form .form-content input {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border-radius: 10px;
   border: none;
-  padding: 4px;
+  padding: 5px;
+  outline: 0;
+}
+.form .form-content input:focus {
+  border: 1px solid rgb(0, 0, 0);
 }
 .form .form-content .btn-enviar {
   display: flex;
@@ -252,6 +257,7 @@
   margin-top: 20px;
 }
 .form .form-content button {
+  cursor: pointer;
   padding: 8px;
   width: 120px;
   border: none;
@@ -329,14 +335,14 @@ footer h3 {
   .logo h1 {
     font-size: 20px;
   }
-  .menu-nav .material-symbols-outlined {
+  .Header-container .menu-nav .material-symbols-outlined {
     display: block;
     color: white;
     font-size: 30px;
     padding: 5px;
     border-radius: 20px;
   }
-  .menu-nav .links-list {
+  .Header-container .menu-nav .links-list {
     display: none;
   }
   .about-section .about-text {
@@ -378,7 +384,7 @@ footer h3 {
     font-size: 12px;
   }
   .about-section .about-text {
-    padding: 5px;
+    padding: 1px;
   }
   .about-section .about-text h1 {
     font-size: 37px;
@@ -455,10 +461,24 @@ footer h3 {
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 2560px;
 }
 
 img {
   width: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(165, 165, 165);
+  border: 3px solid black;
 }/*# sourceMappingURL=reset.css.map */

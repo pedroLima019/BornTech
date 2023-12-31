@@ -6,7 +6,9 @@
       font-size: 20px;
       }
   }
-   .menu-nav{
+
+   .Header-container{
+    .menu-nav{
      .material-symbols-outlined{
        display: block;
        color: white;
@@ -20,9 +22,11 @@
        }
 
     }
+   }
+   
     .about-section{
      .about-text{
-         text-align: justify;
+        text-align: justify;
          width: 100%;
 
          h1{
@@ -93,7 +97,7 @@ footer{
     
         .about-section{
           .about-text{
-             padding: 5px;
+             padding: 1px;
             h1{
                font-size: 37px;
             }
