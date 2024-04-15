@@ -9,6 +9,7 @@
   font-family: "Inter", sans-serif;
 }
 
+
 header {
   background-color: #6100ff;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.774);
@@ -25,12 +26,15 @@ header {
 }
 
 .logo h1 {
+  padding:0 10px ;
   color: white;
 }
 
 .logo h1:hover{
-   color: black;
-   transition: all 0.3s ease-in-out;
+  border-radius: 20px 2px 20px;
+  background-color: white;
+   color:#6100ff;
+   transition: all 0.8s ease-in-out;
 }
 
 .nav-list ul {
