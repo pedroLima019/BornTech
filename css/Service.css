@@ -21,7 +21,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 50px 0;
+  margin: 20px 0;
 }
 
 .services-cards {
@@ -32,30 +32,39 @@
   background-color: #242424;
   border-radius: 20px;
   width: 400px;
-  height: 450px;
-  margin: 40px;
+  height: 400px;
+  margin: 20px;  
+  
+}
+
+.services-cards:hover {
+  transition: linear 0.6s;
+  background-color: #330281;
+  border-radius: 20px 50px;
 }
 
 .services-cards img {
-  width: 300px;
-  height: 250px;
-  padding: 10px;
+  width: 250px;
+  height: 220px;
+  padding: 20px;
 }
 
 .services-cards h2 {
   color: white;
-  padding: 10px;
   text-align: center;
   font-size: 25px;
 }
 
+
+
 .services-cards p {
   color: white;
-  padding: 10px;
+  padding:5px;
   text-align: center;
   font-size: 12px;
   font-weight: 100;
 }
+
 
 .services-cards .btn-sm {
   border: none;
