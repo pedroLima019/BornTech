@@ -1,18 +1,18 @@
 .service-container {
   background-color: #6100ff;
   width: 100%;
-  padding: 65px;
+  padding: 10px 65px;
 }
 
 .title-section {
   text-align: center;
   color: white;
-  padding: 10px;
+  padding: 10px 0;
   border-bottom: 1px solid white;
 }
 
 .title-section h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 800;
 }
 
@@ -33,15 +33,9 @@
   border-radius: 20px;
   width: 400px;
   height: 400px;
-  margin: 20px;  
-  
+  margin: 20px;
 }
 
-.services-cards:hover {
-  transition: linear 0.6s;
-  background-color: #330281;
-  border-radius: 20px 50px;
-}
 
 .services-cards img {
   width: 250px;
@@ -55,16 +49,13 @@
   font-size: 25px;
 }
 
-
-
 .services-cards p {
   color: white;
-  padding:5px;
+  padding: 5px;
   text-align: center;
   font-size: 12px;
   font-weight: 100;
 }
-
 
 .services-cards .btn-sm {
   border: none;
