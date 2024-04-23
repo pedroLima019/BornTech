@@ -123,6 +123,19 @@
     padding: 0px;
     margin: 0 0 45px 0;
   }
+
+  .form {
+    padding: 8px;
+  }
+
+  .form-content {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .form-text {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -162,20 +175,48 @@
     width: 330px;
   }
 
+  .services-cards{ 
+    margin: 15px;
+  }
+
   .services-cards h2 {
     font-size: 20px;
+    padding: 0;
   }
 
   .services-cards p {
-    padding: 18px;
+    padding: 10px;
     font-size: 12px;
+  }
+
+  .services-cards .btn-sm{
+     width: 120px;
+     padding: 8px;
+     font-size: 13px;
   }
 
   .customers-logo img {
     width: 100%;
-    padding: 20px;
   }
 
+  .customers-logo img {
+    width: 200px;
+  }
+
+  .customers-logo img:nth-child(3) {
+    width: 150px;
+  }
+  .customers-logo img:nth-child(4) {
+    width: 120px;
+  }
+
+  form {
+    width: 100%;
+    padding: 8px;
+}
+}
+
+@media (max-width: 375px) {
   .customers-logo img {
     width: 250px;
   }
@@ -186,20 +227,35 @@
   .customers-logo img:nth-child(4) {
     width: 120px;
   }
+
+  .services-cards{ 
+    margin: 10px;
+  }
+
+.services-cards h2 {
+    font-size: 20px;
 }
 
-@media (max-width: 375px){
-   
-   .customers-logo img{
-    width: 250px;
-   }
+.services-cards p {
+   font-size: 10px;
+   padding: 8px;
+}
 
-   .customers-logo img:nth-child(3){
-     width: 150px;
-   }
-   .customers-logo img:nth-child(4){
-     width: 120px;
-   }
+.services-cards .btn-sm{
+  width: 120px;
+  padding: 8px;
+  font-size: 12px;
+}
+
+.form-text {
+  padding: 0px;
+
+}
+
+form {
+  width: 100%;
+  padding: 8px;
+}
 }
 
 @media (max-width: 425px) {
@@ -280,6 +336,10 @@
     font-size: 32px;
   }
 
+  .services-cards{ 
+    margin: 20px;
+  }
+
   .customers-section {
     padding: 20px;
   }
@@ -290,14 +350,44 @@
   }
 
   .customers-title h3 {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .customers-logo img {
+    width: 200px;
     padding: 20px;
   }
+  .customers-logo img:nth-child(3){
+    width: 130px;
+  }
   .customers-logo img:nth-child(4) {
-    width: 300px;
+    width: 200px;
+  }
+  .form-content {
+    display: block;
+    border-radius: 0px;
+  }
+
+  .form-text {
+    padding: 30px;
+    line-height: 35px;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  form {
+    width: 100%;
+    padding: 8px;
+  }
+
+  button {
+    width: 100px;
+    font-size: 13px;
+    margin: 15px auto;
+  }
+
+  label{
+     font-size: 15px;
   }
 }
 
