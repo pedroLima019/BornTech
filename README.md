@@ -1,2 +1,2 @@
 # BornTech
-Website agência focada em Marketing digital e desenvolvimento web 
+Projeto Website agência de marketing 
