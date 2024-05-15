@@ -58,8 +58,12 @@
 }
 
 .about-us .about-img img {
+  border-radius: 10px;
   width: 600px;
+  box-shadow: 0 30px 25px #03030373;
 }
 .about-us-02 .about-img img {
+  border-radius: 10px;
   width: 600px;
+  box-shadow: 0 30px 25px #03030373;
 }

@@ -9,19 +9,22 @@
   font-family: "Inter", sans-serif;
 }
 
-::-webkit-scrollbar{
-   width: 10px;
+html {
+  scroll-behavior: smooth;
+}
 
+::-webkit-scrollbar {
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
- background: #6100ff;
- border: 2px solid #6100ff;
+  background: #6100ff;
+  border: 2px solid #6100ff;
   border-radius: 1px;
 }
 
 ::-webkit-scrollbar-track {
-  background:#ffffff;
+  background: #ffffff;
 }
 
 header {
@@ -40,15 +43,8 @@ header {
 }
 
 .logo h1 {
-  padding:0 10px ;
+  padding: 0 10px;
   color: white;
-}
-
-.logo h1:hover{
-  border-radius: 20px 2px 20px;
-  background-color: white;
-   color:#6100ff;
-   transition: all 0.8s ease-in-out;
 }
 
 .nav-list ul {
@@ -74,6 +70,3 @@ header {
 .mobile-menu {
   display: none;
 }
-
-
-

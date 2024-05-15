@@ -2,18 +2,18 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   padding: 60px;
+   padding: 25px;
    flex-wrap: wrap;
 }
 
 .customers-title{
   text-align: center;
-  margin: 0 50px;
+  margin: 0 10px;
 }
 
 .customers-title h3{
-   font-size: 50px;
-   padding: 30px;
+   font-size: 45px;
+   padding: 50px;
 }
 
 .customers-logo  {
@@ -25,5 +25,10 @@
 }
 
 .customers-logo img{
+   width: 280px;
    padding: 30px;
+}
+
+.customers-logo img:nth-child(3){
+    width: 180px;
 }

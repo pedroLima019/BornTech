@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS-->
     <link rel="stylesheet" href="css/Menu.css" />
     <link rel="stylesheet" href="css/Main.css" />
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/Service.css" />
     <link rel="stylesheet" href="css/Custumers.css" />
     <link rel="stylesheet" href="css/Form.css" />
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/Responsive.css" />
 
+
+    <!--FONTES -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
@@ -36,11 +40,11 @@
 
         <div class="nav-list">
           <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Serviços</a></li>
-            <li><a href="">Clientes</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#Services">Serviços</a></li>
+            <li><a href="#Clientes">Clientes</a></li>
+            <li><a href="#Contato">Contato</a></li>
           </ul>
         </div>
 
@@ -50,19 +54,9 @@
           </span>
         </div>
       </nav>
-      <div class="mobile-menu">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Sobre</a></li>
-          <li><a href="">Serviços</a></li>
-          <li><a href="">Clientes</a></li>
-          <li><a href="">Contato</a></li>
-          <li><a href="">Blog</a></li>
-        </ul>
-      </div>
     </header>
 
-    <main class="main-container">
+    <main class="main-container" id="Home">
       <div class="main-content">
         <h1>Nascemos para transformar suas ideais em técnologia</h1>
         <p>
@@ -70,11 +64,11 @@
           desenvolvemos, é guiada por um propósito maior: capacitar nossos
           clientes a prosperar em um mundo cada vez mais digitalizado.
         </p>
-        <button class="btn-FC">Fale conosco</button>
+      <a class="btn-FC" href="#Contato">Fale conosco</a>
       </div>
     </main>
 
-    <section class="about-section">
+    <section class="about-section" id="Sobre">
       <div class="about-us">
         <div class="about-description01">
           <h1>Sobre Nós</h1>
@@ -138,10 +132,7 @@
       </div>
     </section>
 
-    <section class="service-container">
-      <div class="title-section">
-        <h1>Nossos Serviços</h1>
-      </div>
+    <section class="service-container" id="Services">
       <div class="content">
         <div class="services-cards">
           <img src="assets/Imagem SEO.png" alt="" />
@@ -150,7 +141,7 @@
             Otimização de sites para melhorar a visibilidade nos resultados de
             pesquisa e aumentar o tráfego orgânico.
           </p>
-          <button class="btn-sm">Saiba mais →</button>
+          <button class="btn-sm">Faça seu orçamento →</button>
         </div>
 
         <div class="services-cards">
@@ -160,7 +151,7 @@
             Estratégias de mídia social para construir e engajar comunidades
             online e impulsionar a conscientização da marca.
           </p>
-          <button class="btn-sm">Saiba mais →</button>
+          <button class="btn-sm">Faça seu orçamento → </button>
         </div>
 
         <div class="services-cards">
@@ -170,7 +161,7 @@
             Criação de sites modernos, responsivos e otimizados para oferecer
             uma experiência excepcional ao usuário.
           </p>
-          <button class="btn-sm">Saiba mais →</button>
+          <button class="btn-sm">Faça seu orçamento →</button>
         </div>
         <div class="services-cards">
           <img src="assets/Allura UI Windows.png" alt="" />
@@ -179,12 +170,12 @@
             Criação de conteúdo envolvente e relevante para atrair, envolver e
             converter o público-alvo.
           </p>
-          <button class="btn-sm">Saiba mais →</button>
+          <button class="btn-sm">Faça seu orçamento →</button>
         </div>
       </div>
     </section>
 
-    <section class="customers-section">
+    <section class="customers-section" id="Clientes">
       <div class="customers-title">
         <h3>Marcas que acreditam em nossos serviços</h3>
       </div>
@@ -195,7 +186,7 @@
         <img src="assets/Pinterest_logo.png" alt="Pinterest Logo" />
       </div>
     </section>
-    <section class="form">
+    <section class="form" id="Contato">
       <div class="form-content">
         <div class="form-text">
           <p>
@@ -231,25 +222,28 @@
       </div>
     </section>
     <footer>
-        <div class="contatos">
-            <h3>Contatos</h3>
-            <a href=""><img src="assets/email.png" alt="">borntech@gmail.com</a>
-            <a href=""><img src="assets/pin.png" alt="">Rua: Francisco Ruiz , 71 , Descalvado - sp</a>
-            <a href=""><img src="assets/instagram.png" alt="">@BornTech.Brasil</a>
-        </div>
+      <div class="contatos">
+        <h3>Contatos</h3>
+        <a href=""><img src="assets/email.png" alt="" />borntech@gmail.com</a>
+        <a href=""
+          ><img src="assets/pin.png" alt="" />Rua: Francisco Ruiz , 71 ,
+          Descalvado - sp</a
+        >
+        <a href=""><img src="assets/instagram.png" alt="" />@BornTech.Brasil</a>
+      </div>
 
-        <div class="work">
-           <h3>Serviços</h3>
-            <a href="">SEO ( Search Engine Optimization)</a>
-            <a href="">Midia Social</a>
-            <a href="">Desenvolvimento web</a>
-            <a href="">Marketing digital</a>
-        </div>
+      <div class="work">
+        <h3>Serviços</h3>
+        <a href="">SEO ( Search Engine Optimization)</a>
+        <a href="">Midia Social</a>
+        <a href="">Desenvolvimento web</a>
+        <a href="">Marketing digital</a>
+      </div>
 
-        <div class="busca">
-            <input type="text" placeholder="Digite seu e-mal">
-            <button class="btnBusca">Assinar</button>
-        </div>
+      <div class="busca">
+        <input type="text" placeholder="Digite seu e-mal" />
+        <button class="btnBusca">Assinar</button>
+      </div>
     </footer>
 
     <script src="js/menuMB.js"></script>

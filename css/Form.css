@@ -1,5 +1,5 @@
 .form {
-  background:#040404;
+  background-color: #6100ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,9 +12,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 60px;
+  padding: 20px;
   width: 100%;
-  border-radius: 150px 0 150px 0;
+
 }
 
 .form-text {
@@ -22,9 +22,10 @@
   color: #ffff;
   font-size: 35px;
   font-weight: 400;
-  line-height: 45px;
+  line-height: 60px;
   font-style: italic;
-  padding: 20px;
+  margin-right: 20px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -71,5 +72,5 @@ button{
 button:hover{
    transition: all 0.5s linear;
    background-color: #fdfdfd;
-   color: #6100ff;
+   color: #6200ff;
 }
