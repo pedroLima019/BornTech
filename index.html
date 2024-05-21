@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/Responsive.css" />
 
+    <!--Script-->
+    <script defer src="js/menuMB.js"></script>
+
+    <!--Icon menu -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <!--FONTES -->
     <link
@@ -32,29 +37,36 @@
     <title>BornTech</title>
   </head>
   <body>
-    <header>
-      <nav class="nav-bar">
-        <div class="logo">
-          <h1>BornTech</h1>
-        </div>
+      <header>
+            <div class="logo">
+                 <h1>BornTech </h1>
+            </div>
 
-        <div class="nav-list">
-          <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Sobre">Sobre</a></li>
-            <li><a href="#Services">Serviços</a></li>
-            <li><a href="#Clientes">Clientes</a></li>
-            <li><a href="#Contato">Contato</a></li>
-          </ul>
-        </div>
+            <div class="menu-desktop">
+                 <ul>
+                     <li><a href="">Home</a></li>
+                     <li><a href="">Sobre</a></li>
+                     <li><a href="">Serviços</a></li>
+                     <li><a href="">Clientes</a></li>
+                     <li><a href="">Contato</a></li>
+                 </ul>
+            </div>
 
-        <div class="mobile-menu-icon">
-          <span onclick="menuShow()" class="material-symbols-outlined">
-            menu
-          </span>
-        </div>
-      </nav>
-    </header>
+            <div class="menu-mobile">
+              <span class="material-symbols-outlined">
+                menu
+                </span>
+                 <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Sobre</a></li>
+                  <li><a href="">Serviços</a></li>
+                  <li><a href="">Clientes</a></li>
+                  <li><a href="">Contato</a></li>
+              </ul>
+            </div>
+      </header>
+
+
 
     <main class="main-container" id="Home">
       <div class="main-content">
@@ -64,7 +76,7 @@
           desenvolvemos, é guiada por um propósito maior: capacitar nossos
           clientes a prosperar em um mundo cada vez mais digitalizado.
         </p>
-      <a class="btn-FC" href="#Contato">Fale conosco</a>
+        <a class="btn-FC" href="#Contato">Fale conosco</a>
       </div>
     </main>
 
@@ -151,7 +163,7 @@
             Estratégias de mídia social para construir e engajar comunidades
             online e impulsionar a conscientização da marca.
           </p>
-          <button class="btn-sm">Faça seu orçamento → </button>
+          <button class="btn-sm">Faça seu orçamento →</button>
         </div>
 
         <div class="services-cards">
@@ -203,20 +215,9 @@
             placeholder="Digite seu nome"
           />
           <label for="E-mail">E-mail:</label>
-          <input
-            type="text"
-            id="E-mail"
-            name="E-mail"
-            placeholder="Digite seu e-mail"
-          />
+          <input type="text" id="E-mail" />
           <label for="Text">Expresse sua ideia:</label>
-          <textarea
-            name="Text"
-            id="Text"
-            cols="30"
-            rows="10"
-            placeholder="Expresse suas ideias aqui..."
-          ></textarea>
+          <textarea name="Text" id="Text" cols="30" rows="10"></textarea>
           <button>Enviar</button>
         </form>
       </div>
@@ -245,7 +246,5 @@
         <button class="btnBusca">Assinar</button>
       </div>
     </footer>
-
-    <script src="js/menuMB.js"></script>
   </body>
 </html>

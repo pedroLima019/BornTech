@@ -1,10 +1,11 @@
-function menuShow(){
+let menuShow = document.querySelector(".menu-mobile span");
 
-   let menuMobile = document.querySelector('.mobile-menu')
-   if(menuMobile.classList.contains('open')){
-       menuMobile.classList.remove('open')
-   }else{
-     menuMobile.classList.add('open')
-   }
-   
-}
+menuShow.addEventListener("click", (e) => {
+  e.preventDefault();
+  let menuMobile = document.querySelector(".menu-mobile ul");
+  if (menuMobile.classList.contains("show-menu")) {
+    menuMobile.classList.remove("show-menu");
+  } else {
+    menuMobile.classList.add("show-menu");
+  }
+});
