@@ -9,8 +9,18 @@
   font-family: "Inter", sans-serif;
 }
 
+.center {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    background: #88868600;
+}
+
 html {
   scroll-behavior: smooth;
+  max-width: 100%;
 }
 
 ::-webkit-scrollbar {

@@ -439,38 +439,4 @@
   }
 }
 
-@media (max-width: 1024px) {
-  .main-container {
-    height: 435px;
-  }
 
-  .main-content h1 {
-    font-size: 40px;
-  }
-
-  .main-content p {
-    font-size: 14px;
-  }
-
-  .about-us .about-img img {
-    width: 450px;
-  }
-
-  .about-us-02 .about-img img {
-    width: 450px;
-  }
-
-  .service-container {
-    padding: 10px;
-  }
-
-  .customers-section {
-    padding: 10px;
-  }
-
-  .form-text {
-    font-size: 25px;
-    line-height: 40px;
-    padding: 10px;
-  }
-}
