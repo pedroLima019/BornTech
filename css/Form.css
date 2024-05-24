@@ -27,6 +27,7 @@
   margin-right: 20px;
   padding: 10px;
   text-align: center;
+  visibility: hidden;
 }
 
 form {
@@ -35,6 +36,7 @@ form {
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+  visibility: hidden;
 }
 
 label {

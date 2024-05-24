@@ -1,22 +1,23 @@
-.customers-section{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 25px;
-   flex-wrap: wrap;
+.customers-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  flex-wrap: wrap;
 }
 
-.customers-title{
+.customers-title {
   text-align: center;
   margin: 0 10px;
+  visibility: hidden;
 }
 
-.customers-title h3{
-   font-size: 45px;
-   padding: 50px;
+.customers-title h3 {
+  font-size: 45px;
+  padding: 50px;
 }
 
-.customers-logo  {
+.customers-logo {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -24,11 +25,12 @@
   margin: auto 0;
 }
 
-.customers-logo img{
-   width: 280px;
-   padding: 30px;
+.customers-logo img {
+  width: 280px;
+  padding: 30px;
+  visibility: hidden;
 }
 
-.customers-logo img:nth-child(3){
-    width: 180px;
+.customers-logo img:nth-child(3) {
+  width: 180px;
 }

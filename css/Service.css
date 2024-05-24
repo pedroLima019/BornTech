@@ -23,6 +23,7 @@
   height: 400px;
   margin: 40px;
   box-shadow: 0 30px 25px #03030350;
+  visibility: hidden;
 }
 
 .services-cards img {

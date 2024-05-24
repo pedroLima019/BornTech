@@ -24,16 +24,19 @@
   text-align: justify;
 }
 
-.about-section .about-us .about-description01 h1 {
+.about-section .about-description01 h1 {
   font-size: 50px;
+  visibility: hidden;
 }
 
-.about-section .about-us .about-description01 p {
+.about-section .about-description01 p {
   padding: 20px 0;
   font-size: 15px;
   line-height: 25px;
   font-weight: 100;
+  visibility: hidden;
 }
+
 
 .about-description02 {
   margin: 0 30px;
@@ -44,6 +47,7 @@
 .about-description02 h1 {
   font-size: 50px;
   text-align: right;
+  visibility: hidden;
 }
 
 .about-description02 p {
@@ -51,10 +55,12 @@
   font-size: 15px;
   line-height: 26px;
   font-weight: 100;
+  visibility: hidden;
 }
 
 .about-img {
   padding: 20px;
+  visibility: hidden;
 }
 
 .about-us .about-img img {
