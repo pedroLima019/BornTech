@@ -1,6 +1,4 @@
 let menuShow = document.querySelector(".menu-mobile span");
-let menuMobile = document.querySelector(".menu-mobile ul");
-let menulink = document.querySelectorAll(".menu-link");
 
 menuShow.addEventListener("click", (e) => {
   e.preventDefault();
@@ -12,9 +10,4 @@ menuShow.addEventListener("click", (e) => {
   }
 });
 
-// Adiciona evento de clique a cada link do menu
-menuLink.forEach(link => {
-  link.addEventListener("click", () => {
-    menuMobile.classList.remove("show-menu");
-  });
-});
+
