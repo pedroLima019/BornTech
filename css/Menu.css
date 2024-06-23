@@ -39,6 +39,7 @@ html {
 }
 
 header{
+   position: fixed;
    background: #6100ff;
    padding: 0 65px ;
    display: flex;
@@ -47,6 +48,7 @@ header{
    height: 70px;
    width: 100%;
    flex-wrap: wrap;
+   z-index: 1;
 }
 
 .logo{
