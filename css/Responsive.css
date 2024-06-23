@@ -24,10 +24,10 @@
     height: 100vh;
     text-align: center;
   }
- 
+
   .menu-mobile ul.show-menu {
-     opacity: 1 !important;
-     display: block;
+    opacity: 1 !important;
+    display: block;
   }
 
   .menu-mobile ul li {
@@ -440,4 +440,16 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .main-content h1 {
+    font-size: 40px;
+  }
 
+  .about-us .about-img img {
+    width: 450px;
+  }
+
+  .about-us-02 .about-img img {
+    width: 450px;
+  }
+}
