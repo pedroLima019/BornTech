@@ -20,7 +20,8 @@ body{
 
 html {
   scroll-behavior: smooth;
-  max-width: 100%;
+  width: 100%;
+  background: #ffffff;
 }
 
 ::-webkit-scrollbar {
@@ -51,10 +52,6 @@ header{
 .logo{
    color: white;
    transition: all 0.3s ease-in-out;
-}
-
-.logo:hover{
-  color: black;
 }
 
 .menu-desktop ul{

@@ -17,6 +17,7 @@
     <!--Script-->
     <script defer src="js/menuMB.js"></script>
     <script defer src="js/scroll.js"></script>
+    <script defer src="js/validateForm.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!--Icon menu -->
@@ -219,19 +220,14 @@
               Preencha o formulário e comece a moldar seu futuro online!
             </p>
           </div>
-          <form>
-            <label for="Name">Nome:</label>
-            <input
-              type="text"
-              id="Name"
-              name="Name"
-              placeholder="Digite seu nome"
-            />
-            <label for="E-mail">E-mail:</label>
-            <input type="text" id="E-mail" required />
-            <label for="Text">Expresse sua ideia:</label>
-            <textarea name="Text" id="Text" cols="30" rows="10"></textarea>
-            <button>Enviar</button>
+          <form id="form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" />
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" />
+            <label for="text">Expresse sua ideia:</label>
+            <textarea name="Text" id="text" cols="30" rows="10"></textarea>
+            <button type="submit">Enviar</button>
           </form>
         </div>
       </section>

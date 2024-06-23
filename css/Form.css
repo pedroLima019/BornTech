@@ -80,3 +80,7 @@ button:hover{
    background-color: #fdfdfd;
    color: #6200ff;
 }
+
+.erro {
+  border: 2px solid red;
+}
